@@ -8,11 +8,11 @@ const Navbar = () => {
            <div className='flex justify-between items-center'>
             <div className='text-xl font-medium'>Ashar Khan</div>
             <ul className='gap-10 lg:gap-16 md:flex'>
-                   <li className='menu-link'><a href="#hero">home</a></li>
-                   <li className='menu-link'><a href="#about">about</a></li>
-                   <li className='menu-link'><a href="#project">project</a></li>
-                   <li className='menu-link'><a href="#skills">skills</a></li>
-                   <li className='menu-link'><a href="#contact">contact</a></li>
+                   <li className='menu-link'><a href="#hero">Home</a></li>
+                   <li className='menu-link'><a href="#about">About</a></li>
+                   <li className='menu-link'><a href="#project">Project</a></li>
+                   <li className='menu-link'><a href="#skills">Skills</a></li>
+                   <li className='menu-link'><a href="#contact">Contact</a></li>
             </ul>
             <LuMenuSquare className='md:hidden' size={30} />
            </div>

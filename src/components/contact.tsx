@@ -3,7 +3,7 @@ import { MdOutlineAttachEmail } from "react-icons/md";
 import { BsFillTelephoneInboundFill } from "react-icons/bs";
 
 
-const contact = () => {
+const Contact = () => {
   return (
     <div  id='contact' className='pt-32 container'>
         <div className='grid md:grid-col-2 gap-10'>
@@ -32,7 +32,7 @@ const contact = () => {
                             </textarea>
                     </div>
                 </div>
-                <button className='bg-accent p-2 px-6' data-aos="flip-up"></button>
+                <button className='bg-accent p-2 px-6' data-aos="flip-up">Submit</button>
             </div>
         </div>
       
@@ -40,5 +40,5 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
 

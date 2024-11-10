@@ -2,11 +2,11 @@
 import Hero from "@/components/hero";
 import Project from "@/components/Project";
 import Skills from "@/components/Skills";
-import Contact from "@/components/contact";
 import About from "@/components/About";
 import AOS from "aos"
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Contact from "@/components/contact";
 
 
 export default function Home() {
